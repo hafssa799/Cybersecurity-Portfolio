@@ -1,0 +1,15 @@
+<!-- Scénario 4 — blocage automatique après brute force sur ScadaLTS -->
+<!-- Utilise le script natif Wazuh "firewall-drop"                    -->
+<!-- À ajouter dans /var/ossec/etc/ossec.conf du manager Wazuh        -->
+<command>
+  <name>scadalts-block</name>
+  <executable>firewall-drop</executable>
+  <timeout_allowed>yes</timeout_allowed>
+</command>
+
+<active-response>
+  <command>scadalts-block</command>
+  <location>local</location>
+  <rules_id>100101</rules_id>
+  <timeout>600</timeout>
+</active-response>

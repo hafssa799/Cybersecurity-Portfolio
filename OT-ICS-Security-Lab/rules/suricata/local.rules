@@ -1,0 +1,4 @@
+# Règle personnalisée — détection d'une écriture Modbus non autorisée vers le PLC
+# Utilise le mot-clé natif "modbus: access write" de Suricata.
+# Plage de SID 9000000+ réservée aux règles locales (évite les collisions).
+alert modbus any any -> 192.168.95.2 502 (msg:"SCADA_IDS: Unauthorized Modbus Write Detected"; modbus: access write; sid:9000001; rev:1;)

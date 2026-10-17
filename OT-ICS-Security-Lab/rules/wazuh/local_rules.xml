@@ -1,0 +1,12 @@
+<!-- Règle de corrélation Wazuh — Scénario 2 (écriture Modbus non autorisée) -->
+<!-- Fichier cible : /var/ossec/etc/rules/local_rules.xml (manager Wazuh)    -->
+<group name="ics,modbus,soar,">
+  <rule id="100200" level="12">
+    <if_sid>86601</if_sid>
+    <field name="data.alert.signature_id">9000001</field>
+    <description>SCADA SOAR: Unauthorized Modbus Write - Auto-blocking attacker $(data.src_ip)</description>
+    <mitre>
+      <id>T0836</id>
+    </mitre>
+  </rule>
+</group>

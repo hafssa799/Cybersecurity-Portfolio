@@ -1,0 +1,15 @@
+<!-- Scénario 2 — blocage automatique après écriture Modbus non autorisée -->
+<!-- À ajouter dans /var/ossec/etc/ossec.conf du manager Wazuh            -->
+<ossec_config>
+  <command>
+    <name>modbus-block</name>
+    <executable>modbus-block.sh</executable>
+    <timeout_allowed>no</timeout_allowed>
+  </command>
+
+  <active-response>
+    <command>modbus-block</command>
+    <location>local</location>
+    <rules_id>100200</rules_id>
+  </active-response>
+</ossec_config>
