@@ -167,7 +167,7 @@ DIRS-Security-Suite/
 ## Documentation
 
 - Paper: [`docs/DIRS-Security-Suite-Paper.pdf`](docs/DIRS-Security-Suite-Paper.pdf)
-- Presentation: [`docs/DIRS-Presentation.pptx`](docs/DIRS-Presentation.pptx)
+- Presentation: [`docs/DIRS-Presentation.pptx`](docs/DIRS.pptx)
 
 ## License
 
