@@ -150,8 +150,7 @@ L'erreur 500 est elle-même une vulnérabilité additionnelle : elle révèle la
 
 ## Documentation
 
-- Présentation complète : [`docs/Audit-Securite-OWASP-Juice-Shop-Presentation.pptx`](docs/Audit-Securite-OWASP-Juice-Shop-Presentation.pptx)
-
+- Présentation complète : [Télécharger la présentation PowerPoint](https://github.com/hafssa799/Cybersecurity-Portfolio/raw/main/OWASP-Juice-Shop-Audit/docs/Audit-Securite-OWASP-Juice-Shop-Presentation.pptx)
 ---
 
 *Cet audit a été réalisé dans un cadre pédagogique, sur une application officiellement conçue pour l'entraînement à la sécurité (OWASP Juice Shop). Aucune des techniques présentées ne doit être appliquée sur un système sans autorisation explicite.*
