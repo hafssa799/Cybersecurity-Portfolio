@@ -9,7 +9,7 @@
 
 Déploiement et exploitation de **TheHive** (gestion des cas d'incident) et **Cortex** (moteur d'enrichissement des indicateurs de compromission), intégrés via API, pour mener de bout en bout l'investigation d'un incident simulé : une campagne de phishing avec exfiltration de données.
 
-> Auteurs : **Wissal MOKDAD** et **Hafssa AZARG** — EMSI, 27 mars 2026
+> Auteur : **Hafssa AZARG** — EMSI, 27 mars 2026
 
 ---
 
