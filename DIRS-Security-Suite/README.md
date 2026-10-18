@@ -167,8 +167,7 @@ DIRS-Security-Suite/
 ## Documentation
 
 - Paper: [`docs/DIRS-Security-Suite-Paper.pdf`](docs/DIRS-Security-Suite-Paper.pdf)
-- Presentation: [`docs/DIRS-Presentation.pptx`](docs/DIRS.pptx)
-- Présentation complète : [Télécharger la présentation](https://github.com/hafssa799/Cybersecurity-Portfolio/raw/main/DIRS-Security-Analysis/docs/DIRS-Presentation.pptx)
+- Présentation complète : [Télécharger la présentation](https://github.com/hafssa799/Cybersecurity-Portfolio/raw/main/DIRS-Security-Suite/docs/DIRS-Presentation.pptx)
 ---
 ## License
 
